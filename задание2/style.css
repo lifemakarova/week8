@@ -1,0 +1,83 @@
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+/* Основной контент */
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.holder2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+}
+/* Колонки */
+.col{
+    padding: 15px;
+}
+.col2{
+    padding: 15px;
+}
+.subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+.col2third{
+    background-image: url(./images/2page/Rectangle\ 12.png);
+    width: 365px;
+    height: 233px;
+}
+.subtitle_white{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    padding: 7px;
+}
+.email{
+    padding: 7px;
+}
+
+.button_subscribe{
+padding: 7px;
+}
+.subtitle_color{
+    background-image: url(./images/2page/Rectangle\ 12.png);
+}
+
+.text{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+/* Футер */
+.nav{
+    padding: 30px;
+}
+.nav__link{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
